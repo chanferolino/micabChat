@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name_zom">འཛོམས།</string>
+  <string name="create_an_account">ཁ་བྱང་ཞིག་བཟོས།</string>
+  <string name="create_id">འཛོམས་ཀྱི་ཁ་བྱང་ཞིག་བཟོས།</string>
+  <string name="advanced">ཚད་མཐོའི་སྒྲིག་བཟོ།</string>
+  <string name="account_congrats">བཀྲ་ཤིས་བདེ་ལེགས། ད་ལྟ་ཁྱེད་ཀྱིས་འཛོམས་བེད་སྤྱོད་གཏོང་ཆོག</string>
+  <string name="invite_friends">ཁྱེད་ཀྱི་གྲོགས་པོ་འཛོམས་ལ་སྐད་ཐོངས།</string>
+  <string name="invite_sms">འཕྲིན་ཐུང་།</string>
+  <string name="invite_share">ངོ་སྤྲོད་བྱོས།</string>
+  <string name="invite_scan_qr">བཤེར།</string>
+  <string name="sign_in_message">སྔར་ཡོད་ཀྱི་ཁ་བྱང་བརྒྱུད་ནས་འཛུལ།</string>
+  <string name="invite_action">གྲོགས་པོ་གདན་ཞུ།</string>
+  <string name="friends">གྲོགས་པོ།</string>
+  <string name="add_friends">གྲོགས་སྣོན།</string>
+  <string name="search_by_id">མིང་བྱང་བརྒྱུད་ནས་འཚོལ།</string>
+  <string name="chats">གླེང་མོལ།</string>
+  <string name="choose_friend">གྲོགས་ཞིག་འདེམས།</string>
+  <string name="send_message">འཕྲིན་ཞིག་ཐོངས།</string>
+  <string name="push_to_talk">མནན་ནས་ཤོད།</string>
+  <string name="recording_release"> སྒྲ་ལེན་བཞིན་པ། ཀློད་ནས་ཐོངས།</string>
+  <string name="recording_delete"> སྒྲ་ལེན་བཞིན་པ། ཀློད་ནས་གསུབས།</string>
+  <string name="swipe_up_delete">མཛུ་གུས་ཡར་དེད་ནས་གསུབ་རོགས།</string>
+  <string name="create_group">ཚོགས་པ་ཞིག་བཟོས།</string>
+  <string name="members">ཚོགས་མི།</string>
+  <string name="group_name">ཚོགས་པའི་མིང་།</string>
+  <string name="search_history">གླེང་མོལ་ཞིག་འཚོལ།</string>
+  <string name="photo_gallery">པར་མཛོད།</string>
+  <string name="me_title">ང་།</string>
+  <string name="accounts">ངའི་ཁ་བྱང་ཁག</string>
+  <string name="select_avatar">པར་རིས་ཞིག་གདེམ།</string>
+  <string name="delete_account">ཁ་བྱང་གསུབ།</string>
+  <string name="add_account_action">ཁ་བྱང་གསར་བཟོ་བྱོས།</string>
+  <string name="choose_photos">པར་མཛོད་ནས་འདེམས།</string>
+  <string name="choose_language">སྐད་ཡིག་བརྗེ་བསྒྱུར།</string>
+  <string name="welcome_to_zom">འཛོམས་ནང་སླེབས་པར་དགའ་བསུ་ཞུ།</string>
+  <string name="grant_perms">འཛོམས་ལ་པར་ཆས་བེད་སྤྱོད་གཏོང་རྒྱུའི་ཆོག་མཆན་སྤྲོད།</string>
+  <string name="menu_refresh">གླེང་མོལ་བསྐྱར་གསོ།</string>
+</resources>

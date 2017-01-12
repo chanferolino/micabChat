@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="196dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/whitelogo" />
+
+    <org.ironrabbit.type.CustomTypefaceTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center|center_vertical"
+        android:padding="3dp"
+        android:text="Welcome to UPS Chat"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageButton
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@color/colorPrimary"
+            android:contentDescription="@string/menu_locale"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_language_white_36dp"
+            android:layout_marginRight="4dp"
+            />
+
+        <org.ironrabbit.type.CustomTypefaceTextView
+            android:id="@+id/languageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="0dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center|center_vertical"
+            android:text="@string/choose_language"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+
+            />
+
+    </LinearLayout>
+
+    <org.ironrabbit.type.CustomTypefaceTextView
+        android:id="@+id/nextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center|center_vertical"
+        android:padding="3dp"
+        android:text="@string/lock_screen_skip"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+</LinearLayout>

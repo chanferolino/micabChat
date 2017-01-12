@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/menu_create_group"
+        android:icon="@drawable/ic_group_add_white_36dp"
+        android:title="@string/create_group"
+        app:showAsAction="never" />
+
+    <!--<item-->
+        <!--android:id="@+id/menu_search"-->
+        <!--app:actionViewClass="android.support.v7.widget.SearchView"-->
+        <!--android:icon="@drawable/ic_search_white_24dp"-->
+        <!--app:showAsAction="always|collapseActionView"-->
+        <!--android:title="@string/search_history"/>-->
+
+    <!--<item-->
+        <!--android:id="@+id/menu_new_account"-->
+        <!--android:icon="@drawable/ic_action_new"-->
+        <!--android:title="@string/accounts"-->
+        <!--app:showAsAction="never"/>-->
+    <!--<item-->
+        <!--android:id="@+id/menu_settings"-->
+        <!--android:icon="@drawable/ic_settings_white_24dp"-->
+        <!--android:title="@string/menu_settings"-->
+        <!--app:showAsAction="never" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/menu_lock"-->
+        <!--android:icon="@drawable/ic_lock_outline_black_18dp"-->
+        <!--android:title="@string/lock_app"-->
+        <!--app:showAsAction="never" />-->
+
+</menu>

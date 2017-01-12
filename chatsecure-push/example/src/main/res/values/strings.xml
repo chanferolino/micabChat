@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ChatSecure-Push Example</string>
+
+    <string name="gcm_send_message">Token retrieved and sent to server! You can now use gcmsender to
+        send downstream messages to this app.</string>
+    <string name="registering_message">Generating InstanceID token…</string>
+    <string name="token_error_message">An error occurred while either fetching the InstanceID token,
+        sending the fetched token to the server or subscribing to the PubSub topic. Please try
+        running the sample again.</string>
+
+    <string name="create_account">Create Account</string>
+    <string name="signing_up">Signing Up…</string>
+    <string name="failed_to_create_account">Failed to create account!</string>
+    <string name="recipient_push_token">Recipient Push Token</string>
+    <string name="send_message">Send Message</string>
+    <string name="send_message_info">Send a push message to the user who issued the specified push token</string>
+    <string name="share_token">Share a Push Token</string>
+    <string name="share_token_info">A Push Token allows someone to send you push messages</string>
+    <string name="payload">Payload</string>
+    <string name="revoked_token">Revoked token</string>
+    <string name="my_devices">My Devices</string>
+    <string name="my_tokens">My Tokens</string>
+    <string name="messaging">Messaging</string>
+    <string name="registration">Registration</string>
+    <string name="account_management">Account Management</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="revoke">Revoke</string>
+    <string name="revoking">Revoking…</string>
+    <string name="create_chatsecure_push_account">Create ChatSecure Push Account</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="you_have_no_devices">You have no registered devices</string>
+    <string name="you_have_no_tokens">You have no registered tokens</string>
+</resources>

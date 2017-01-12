@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flipViewAdvanced"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cccccc"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingTop="40dp"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/viewCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <org.ironrabbit.type.CustomTypefaceTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Create a UPS account"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="?colorPrimary" />
+
+        <org.ironrabbit.type.CustomTypefaceEditText
+            android:id="@+id/edtNameAdvanced"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:autoLink="none"
+            android:background="@drawable/rounded_rect"
+            android:cursorVisible="true"
+            android:gravity="center_horizontal"
+            android:inputType="textEmailAddress"
+            android:hint="Username"
+            android:padding="6dp"
+            android:selectAllOnFocus="true"
+            android:textAlignment="center"
+            android:textSize="24dp" />
+
+        <org.ironrabbit.type.CustomTypefaceTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="Your username will automatically have '@upsexpress.com' added to it"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+        <!--
+    <org.awesomeapp.messenger.ui.widgets.InstantAutoCompleteTextView
+        android:id="@+id/spinnerDomains"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:hint="@string/select_domain_new_account"
+        android:completionThreshold="1"
+        android:gravity="center"
+        android:background="@drawable/rounded_rect"
+        android:layout_margin="3dp"
+        android:padding="6dp"
+
+        />
+        -->
+
+        <org.ironrabbit.type.CustomTypefaceEditText
+            android:id="@+id/edtNewPass"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/rounded_rect"
+            android:gravity="center"
+            android:hint="@string/account_setup_password"
+            android:inputType="textPassword"
+            android:padding="6dp"
+            android:selectAllOnFocus="true" />
+
+        <org.ironrabbit.type.CustomTypefaceEditText
+            android:id="@+id/edtNewPassConfirm"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/rounded_rect"
+            android:gravity="center"
+            android:hint="@string/account_setup_password_confirm"
+            android:inputType="textPassword"
+            android:padding="6dp"
+            android:selectAllOnFocus="true" />
+
+        <org.ironrabbit.type.CustomTypefaceEditText
+            android:id="@+id/edtFirstName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/rounded_rect"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:hint="First Name"
+            android:padding="6dp" />
+
+        <org.ironrabbit.type.CustomTypefaceEditText
+            android:id="@+id/edtLastName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/rounded_rect"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:hint="Last Name"
+            android:padding="6dp" />
+
+        <org.ironrabbit.type.CustomTypefaceEditText
+            android:id="@+id/edtEmail"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/rounded_rect"
+            android:gravity="center"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:padding="6dp" />
+
+        <org.ironrabbit.type.CustomTypefaceEditText
+            android:visibility="gone"
+            android:id="@+id/spinnerDomains"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_rect"
+            android:gravity="center"
+            android:hint="@string/select_domain_new_account"
+            android:padding="6dp" />
+
+        <org.ironrabbit.type.CustomTypefaceTextView
+            android:id="@+id/statusError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text=""
+            android:textColor="?colorPrimary"
+            android:textSize="16dp" />
+
+        <org.ironrabbit.type.CustomTypefaceButton
+            android:id="@+id/btnNewRegister"
+            style="@android:style/Widget.Button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginTop="3dip"
+            android:background="@drawable/rounded_rect_primary"
+            android:gravity="center"
+            android:text="@string/btn_create_new_account"
+            android:textColor="@android:color/white"
+
+            />
+
+    </LinearLayout>
+
+</ScrollView>
